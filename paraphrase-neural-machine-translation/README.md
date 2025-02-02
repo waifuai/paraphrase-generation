@@ -28,7 +28,7 @@ repo/
 
 2. **Download the Dataset**
 
-   Download the Parabank 100k dataset from [Hugging Face](https://huggingface.co/datasets/parabank) and place it in the `data` directory as `parabank_100k.tsv`.
+   Download the Parabank 100k dataset and place it in the `data` directory as `parabank_100k.tsv`.
 
 3. **Preprocess the Data**
 

@@ -42,27 +42,3 @@ Run the CLI as follows:
 ```bash
 back-translate --cycles 2 --translation-type en_to_fr --pooling-dir ./data/pooling --model-dir ./models --log-dir ./logs
 ```
-```
-
----
-
-### File: `setup.py`
-A simple packaging script for the CLI.
-
-```python
-from setuptools import setup, find_packages
-
-setup(
-    name="back_translate_cli",
-    version="0.1.0",
-    packages=find_packages(),
-    install_requires=[
-        "trax",       # Trax for deep learning translation.
-        "tensorflow", # For TensorBoard logging.
-    ],
-    entry_points={
-        "console_scripts": [
-            "back-translate=cli:main_cli",
-        ],
-    },
-)
